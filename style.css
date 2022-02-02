@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.clear::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+/* header section start */
+
+.header_section{
+    background: url(./IMG/Image_1.png) no-repeat center;
+    background-size: cover;
+    padding: 100px 0px;
+    color: #fff;
+     
+}
+.header_section h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+.header_section p{
+    margin: 10px 0px;
+    list-style: 25px;
+    line-height: 28px;
+    font-size: 17px;
+   
+}
+.default_btn{
+    color: #000;
+    background:#fdb467;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.header_content{
+    margin-left: 70px;
+    margin-top: 80px;
+}
+/* header section end */
+
+/* about section start */
+.about_section{
+    background: #272624;
+    height: 520px;
+    color: #fff;
+    text-align: center;
+}
+.about_section .about_left{
+    float: left;
+    width:45%;
+    margin-top: 166px;
+    margin-left: 60px;
+}
+.about_section .about_left p{
+    font-size: 17px;
+    margin: 20px 0px;
+    line-height: 23px;
+}
+.about_section .about_right{
+    float: right;
+    width: 48%;
+    margin-top: 160px;
+}
+.about_section .about_right p{
+    margin-top: 25px;
+    line-height: 25px;
+    font-size: 17px;
+}
+.about_section .about_right a{
+    margin-top: 15px;
+}
+/* about section  end  */
+
+/* workshops section  start  */
+.workshop_left{
+    float: left;
+    width: 30%;
+    background:#eee9e5;
+    height: 570px;
+}
+.workshop_left h1{
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.workshop_left p{
+    color: #888785;
+    font-size: 17px;
+    line-height: 25px;
+    margin: 15px 50px;
+}
+.workshop_left a{
+    margin-left: 50px;
+}
+.workshop_right{
+    float:right;
+    width: 70%;
+}
+.workshop_right img{
+    height: 570px;
+}
+
+/* workshops section end */
+
+/* studio section start */
+.studio_section{
+    margin-top: -6px;
+}
+.studio_section .studio_left{
+    float:left;
+    width: 70%;
+}
+.studio_section .studio_left img{
+    height: 570px;
+    margin-top: -5px;
+}
+.studio_section .studio_right{
+    float:right;
+    width: 30%;
+    color: #ffffff;
+    background:#272624;
+    height: 570px;
+    margin-top: -5px;
+}
+.studio_section .studio_right h1{
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.studio_section .studio_right p{
+    font-size: 17px;
+    line-height: 25px;
+    margin: 15px 50px;
+}
+.studio_section .studio_right a{
+    margin-left: 50px;
+}
+
+/* studio section end */
+
+/* our student section  start */
+.ourstudent_section{
+    background-color: #1e1d1b;
+    border-bottom: 2px solid #404040;
+    height: 538px;
+}
+.ourstudent_img{
+    background: url(./IMG/Image_4.png) no-repeat center;
+    background-size: cover;
+    padding: 234px 0px;
+    margin-top: -4px;
+}
+.ourstudent_section .ourstudent_card{
+    background-color:#eee9e5;
+    height:346px;
+    width: 450px;
+    left: 200px;
+    padding: 30px;
+    position: relative;
+    bottom: 278px;
+}
+.ourstudent_section .ourstudent_card h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+.ourstudent_section .ourstudent_card p{
+    font-size: 17px;
+    line-height: 25px;
+    padding: 20px 0px;
+}
+.ourstudent_section .ourstudent_card span{
+    display: inline-block;
+}
+
+/* our student section end */
+
+/* fotter section  start */
+.fotter_Section {
+	background: #1e1d1b;
+	text-align: center;
+	color: #fff;
+	padding: 120px 0px;
+}
+.fotter_content p{
+    width: 744px;
+    text-align: center;
+    margin: auto;
+    margin: 20px auto;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.fotter_content input{
+    padding: 10px 10px;
+    width: 300px;
+    background: #1e1d1b;
+    color: #fff;
+    border: ;
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}     
+/* fotter section end */
+
+
